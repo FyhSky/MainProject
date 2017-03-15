@@ -10,5 +10,7 @@ target 'MainProject' do
  
   # Private Pods
   pod 'HandyFrame'
-
+  pod "A_Category",:path => "../A_Category"
+  pod 'A',:path => '../A'
+  pod 'B_Category',:path => '../B_Category'
 end
